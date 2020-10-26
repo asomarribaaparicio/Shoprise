@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Shoprise</string>
+    <string name="Shoprise">SHOPRISE!</string>
+    <string name="entrar">Entrar</string>
+    <string name="Logueate">Logueate</string>
+    <string name="Recordar_contraseña">Recordar Contraseña</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Registro">Registrate</string>
+
 </resources>
