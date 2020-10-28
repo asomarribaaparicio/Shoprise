@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Shoprise">SHOPRISE!</string>
+    <string name="entrar">Entrar</string>
+    <string name="Logueate">Logueate</string>
+    <string name="Recordar_contraseña">Recordar contraseña</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Registro">Registrate</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Email">Email</string>
+    <string name="País">País</string>
+    <string name="Fecha_Nacimiento">Fecha de nacimiento</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Repetir_contraseña">Repetir contraseña</string>
+    <string name="Numero_telefono">Nº de Teléfono</string>
+    <string name="Condiciones">Acepto los términos y condiciones</string>
 </resources>
