@@ -5,17 +5,16 @@
     android:layout_height="wrap_content"
     android:animateLayoutChanges="true"
     android:background="#000000"
-    android:backgroundTint="#D53E3E"
+    android:backgroundTint="#FFFFFF"
     app:cardCornerRadius="20dp"
-    app:cardElevation="4dp"
+    app:cardElevation="9dp"
     app:cardUseCompatPadding="true">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="134dp"
-        android:layout_height="115dp"
+        android:id="@+id/imagenMarca"
+        android:layout_width="124dp"
+        android:layout_height="79dp"
         app:srcCompat="@drawable/adidas" />
-
 
 
 </androidx.cardview.widget.CardView>
