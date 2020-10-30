@@ -13,4 +13,6 @@
     <string name="Contraseña">Contraseña</string>
     <string name="Repetir_contraseña">Repetir contraseña</string>
     <string name="Numero_telefono">Nº de Teléfono</string>
+    <string name="Condiciones">Acepto los términos y condiciones</string>
+    <string name="O">O</string>
 </resources>
