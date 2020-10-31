@@ -5,7 +5,7 @@
     android:id="@+id/registro"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ColorDegradado"
+    android:background="@drawable/color_degradado2"
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
@@ -19,7 +19,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/badscriptregular"
@@ -29,7 +29,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textregistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Registro"
@@ -163,14 +163,10 @@
                     android:inputType="date"
                     android:textColor="#FFFFFF" />
 
-                <EditText
-                    android:id="@+id/editTextTextPersonName5"
+                <Spinner
+                    android:id="@+id/spinner"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="#FFFFFF"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:textColor="#FFFFFF" />
+                    android:layout_height="42dp" />
 
                 <EditText
                     android:id="@+id/editTextTextEmailAddress"
@@ -232,7 +228,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="@string/Condiciones"
-                android:textColor="#000000"/>
+                android:textColor="#000000" />
 
         </LinearLayout>
     </LinearLayout>
