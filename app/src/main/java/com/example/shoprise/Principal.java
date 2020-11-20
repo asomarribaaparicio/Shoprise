@@ -12,10 +12,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
 import static android.content.Intent.ACTION_VIEW;
 
-public class Principal<marcaInternet> extends AppCompatActivity {
+public class Principal extends AppCompatActivity{
 
+    private String marcaUrl;
 
     private Bundle savedInstanceState;
 
@@ -36,31 +40,31 @@ public class Principal<marcaInternet> extends AppCompatActivity {
 
 
         Marca[] Moda = new Marca[]{
-                new Marca(R.drawable.mango, "mango"),
-                new Marca(R.drawable.pull, "pull"),
-                new Marca(R.drawable.massimo, "massimo"),
-                new Marca(R.drawable.zaraa, "zara"),
-                new Marca(R.drawable.bershka, "bershka"),
-                new Marca(R.drawable.gucci, "gucci"),
-                new Marca(R.drawable.vans, "vans"),
+                new Marca(R.drawable.mango, "mango", "https://shop.mango.com/es"),
+                new Marca(R.drawable.pull, "pull","https://www.pullandbear.com/es/"),
+                new Marca(R.drawable.massimo, "massimo","https://www.massimodutti.com/es/"),
+                new Marca(R.drawable.zaraa, "zara","https://www.zara.com/es/"),
+                new Marca(R.drawable.bershka, "bershka","https://www.bershka.com/"),
+                new Marca(R.drawable.gucci, "gucci","https://www.gucci.com/es/es/"),
+                new Marca(R.drawable.vans, "vans","https://www.vans.es/"),
 
         };
 
         Marca[] Deportes = new Marca[]{
-                new Marca(R.drawable.adidas, "adidas"),
-                new Marca(R.drawable.nike, "nike"),
-                new Marca(R.drawable.under, "under"),
-                new Marca(R.drawable.rebook, "rebook"),
-                new Marca(R.drawable.puma, "puma"),
+                new Marca(R.drawable.adidas, "adidas","https://www.adidas.es/"),
+                new Marca(R.drawable.nike, "nike","https://www.nike.com/es/"),
+                new Marca(R.drawable.under, "under","https://www.underarmour.es/es-es/"),
+                new Marca(R.drawable.rebook, "rebook","https://www.reebok.es/"),
+                new Marca(R.drawable.puma, "puma","https://eu.puma.com/es/es/home"),
         };
 
         Marca[] Tecnología = new Marca[]{
-                new Marca(R.drawable.apple, "apple"),
-                new Marca(R.drawable.lg, "lg"),
-                new Marca(R.drawable.xiaomi, "xiaomi"),
-                new Marca(R.drawable.samsung, "samsung"),
-                new Marca(R.drawable.pccomponentes, "pccomponentes"),
-                new Marca(R.drawable.mediamarkt, "mediamarkt"),
+                new Marca(R.drawable.apple, "apple","https://www.apple.com/es/"),
+                new Marca(R.drawable.lg, "lg","https://www.lg.com/es"),
+                new Marca(R.drawable.xiaomi, "xiaomi","https://mobile.mi.com/es/"),
+                new Marca(R.drawable.samsung, "samsung","https://www.samsung.com/es/"),
+                new Marca(R.drawable.pccomponentes, "pccomponentes","https://www.mediamarkt.es/"),
+                new Marca(R.drawable.mediamarkt, "mediamarkt","https://www.mediamarkt.es/"),
         };
 
         MarcaAdapter MarcaAdapterM = new MarcaAdapter(Moda, Principal.this);
@@ -79,40 +83,38 @@ public class Principal<marcaInternet> extends AppCompatActivity {
         RecyclerViewT.setLayoutManager(layoutManagerT);
 
 
-        public boolean onCreateOptionsMenu(Menu menu);{
-            getMenuInflater().inflate(R.menu.overflow, menu);
-            return true;
-        }
-
-        public boolean onOptionItemSelected(MenuItem item){
-            int id= item.getItemId();
-
-
-
-
-        }
     }
 
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.overflow, menu);
+        return true;
+    }
 
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.listaD) {
+                Intent listadeseos = new Intent(this, listadeseos.class);
+                startActivity(listadeseos);
+                finish();
+            Toast.makeText(this, "Lista de deseos", Toast.LENGTH_SHORT).show();
 
+        }
+        return true;
 
+    }
 
-
-
-
-
-       /* public void linkInternet(View view, int position) {
-        String posicionElemento = Marca.getMarcaNombre();
-        Toast.makeText(this, posicionElemento, Toast.LENGTH_SHORT).show();
-
-
-        if (posicionElemento.equals("mango")) {
-
-            Uri uri = Uri.parse("https://shop.mango.com/es");
-            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+    public void internet(View view) throws URISyntaxException {
+            marcaUrl = Marca.getMarcaUrl();
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(marcaUrl));
             startActivity(intent);
-        }*/
-
-
-
+    }
 }
+
+
+
+
+
+
+
+
