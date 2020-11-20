@@ -49,7 +49,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textNombreR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -58,7 +58,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textApellR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="19dp"
@@ -68,7 +68,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/textFechaNR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -77,7 +77,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/textPaisR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -86,7 +86,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/textEmailR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -95,7 +95,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView15"
+                    android:id="@+id/textTelfR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
@@ -104,7 +104,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView12"
+                    android:id="@+id/textUsuarioR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
@@ -113,7 +113,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/textContrR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
@@ -122,7 +122,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/textRepContrR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
@@ -137,7 +137,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/TextNombreUserR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFF"
@@ -146,7 +146,7 @@
                     android:textColor="#FFFFFF" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName3"
+                    android:id="@+id/TextApellUserR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFF"
@@ -155,7 +155,7 @@
                     android:textColor="#FFFFFF" />
 
                 <EditText
-                    android:id="@+id/editTextDate"
+                    android:id="@+id/TextFechaUserR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFF"
@@ -169,16 +169,16 @@
                     android:layout_height="42dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/TextEmailUserR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#FBFBFB"
+                    android:backgroundTint="#FFFFFF"
                     android:ems="10"
                     android:inputType="textEmailAddress"
                     android:textColor="#FFFFFF" />
 
                 <EditText
-                    android:id="@+id/editTextPhone"
+                    android:id="@+id/editTextTelfR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFF"
@@ -187,29 +187,29 @@
                     android:textColor="#FFFFFF" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName6"
+                    android:id="@+id/TextPersonUsuarioR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#FAFAFA"
+                    android:backgroundTint="#FFFFFF"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:textColor="#FFFFFF"
                     android:textColorHighlight="#FFFFFF" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword2"
+                    android:id="@+id/TextPasswordR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#FAFAFA"
+                    android:backgroundTint="#FFFFFF"
                     android:ems="10"
                     android:inputType="textPassword"
                     android:textColor="#FFFEFE" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword3"
+                    android:id="@+id/TextPasswordRepetirR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#F8F8F8"
+                    android:backgroundTint="#00FFFFFF"
                     android:ems="10"
                     android:inputType="textPassword"
                     android:textColor="#FFFFFF" />
@@ -223,7 +223,7 @@
             android:orientation="vertical">
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/checkCondiciones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -234,10 +234,11 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonEntrarR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="@drawable/boton_redondo"
         android:backgroundTint="#000000"
         android:onClick="pincipalregistro"
         android:text="@string/entrar"

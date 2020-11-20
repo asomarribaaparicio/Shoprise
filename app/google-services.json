@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "725969667218",
+    "firebase_url": "https://shoprise-c83b1.firebaseio.com",
+    "project_id": "shoprise-c83b1",
+    "storage_bucket": "shoprise-c83b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725969667218:android:780b72652578511c85124b",
+        "android_client_info": {
+          "package_name": "com.example.shoprise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725969667218-hgs2nsprggls8qv4dlccj8hv4bkgk1kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoprise",
+            "certificate_hash": "eb457bc38b76f87ecc4428e9d4fe9278c9174b8f"
+          }
+        },
+        {
+          "client_id": "725969667218-ut031itdv2rpd9qcq919rprbu8mn92a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxUIPUVZM8DMTPxTgBgRNfBeBU-kB7Tac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725969667218-ut031itdv2rpd9qcq919rprbu8mn92a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

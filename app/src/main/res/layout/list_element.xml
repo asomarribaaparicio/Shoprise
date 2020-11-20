@@ -13,8 +13,7 @@
     <ImageView
         android:id="@+id/imagenMarca"
         android:layout_width="124dp"
-        android:layout_height="79dp"
-        app:srcCompat="@drawable/adidas" />
+        android:layout_height="79dp" />
 
 
 </androidx.cardview.widget.CardView>
