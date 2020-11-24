@@ -63,8 +63,8 @@ public class Principal extends AppCompatActivity{
                 new Marca(R.drawable.lg, "lg","https://www.lg.com/es"),
                 new Marca(R.drawable.xiaomi, "xiaomi","https://mobile.mi.com/es/"),
                 new Marca(R.drawable.samsung, "samsung","https://www.samsung.com/es/"),
-                new Marca(R.drawable.pccomponentes, "pccomponentes","https://www.mediamarkt.es/"),
-                new Marca(R.drawable.mediamarkt, "mediamarkt","https://www.mediamarkt.es/"),
+                new Marca(R.drawable.pccomponentes, "pccomponentes","https://www.pccomponentes.com/"),
+                new Marca(R.drawable.mediamarkt, "mediamarkt","https://www.mediamarkt.es/")
         };
 
         MarcaAdapter MarcaAdapterM = new MarcaAdapter(Moda, Principal.this);

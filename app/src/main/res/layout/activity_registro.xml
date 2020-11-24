@@ -136,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <EditText
+                v<EditText
                     android:id="@+id/TextNombreUserR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -178,7 +178,7 @@
                     android:textColor="#FFFFFF" />
 
                 <EditText
-                    android:id="@+id/editTextTelfR"
+                    android:id="@+id/TextTelfUserR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFF"
@@ -234,13 +234,12 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/buttonEntrarR"
+        android:id="@+id/entrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="#000000"
-        android:onClick="pincipalregistro"
         android:text="@string/entrar"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
